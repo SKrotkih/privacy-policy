@@ -23,13 +23,43 @@
 <body>
 
 <h1>Emdalex Stream — Guides</h1>
-<p class="meta">Two things you do outside the app: setting up a shared channel for your group, and taking the app's access away from your Google Account when you no longer need it.</p>
+<p class="meta">Things you do outside the app: enabling live streaming on your channel, setting up a shared channel for your group, and taking the app's access away from your Google Account when you no longer need it.</p>
 <nav>
+  <a href="#enable-streaming">Enable live streaming</a>
   <a href="#group-channel">Create a group channel</a>
   <a href="#revoke-access">Remove the app's access</a>
 </nav>
 
-<h2 id="group-channel">1. Create a YouTube channel for your group</h2>
+<h2 id="enable-streaming">1. Enable live streaming on your channel</h2>
+
+<p>Every YouTube channel starts with live streaming switched off. Until you switch it on, Emdalex Stream cannot create streams for the channel — the app shows <em>“Live streaming is not enabled yet”</em> and brings you here. This is a one-time step for each channel (your own, or a group channel), done on the YouTube website.</p>
+
+<div class="note">
+  You need a YouTube channel on the Google account you sign in with. If you have never used YouTube with this account, the first visit to <a href="https://studio.youtube.com">YouTube Studio</a> creates the channel for you — just confirm the name.
+</div>
+
+<h3>Steps</h3>
+<ol>
+  <li>On a computer or in the phone's browser, sign in to YouTube with the same Google account you use in the app. If you stream to a group channel, switch to that channel first: click your picture (top right) → <kbd>Switch account</kbd> → the channel.</li>
+  <li>Open <a href="https://studio.youtube.com">studio.youtube.com</a>.</li>
+  <li>Click <kbd>Create</kbd> (top right, the camera icon) → <kbd>Go live</kbd>. On a phone: tap <kbd>Create</kbd> → <kbd>Go live</kbd> in the YouTube app.</li>
+  <li>YouTube asks you to verify a phone number: enter it, then the code from the SMS. This proves the channel belongs to a real person; the number is not shown anywhere.</li>
+  <li>After verification YouTube shows a countdown — <em>“Only 23:59 until you can stream”</em>. Live streaming becomes available on the channel within 24 hours. You can close the page; there is nothing else to do.</li>
+</ol>
+
+<h3>After the wait</h3>
+<p>Open Emdalex Stream again and press <kbd>Stream</kbd> or schedule a stream — it now works. No need to sign out or reinstall.</p>
+
+<h3>If it still does not work after 24 hours</h3>
+<ol>
+  <li>Check that you signed in to the app with the <em>same channel</em> you enabled streaming for: the side menu shows the channel name at the top.</li>
+  <li>Open <a href="https://studio.youtube.com">YouTube Studio</a> → <kbd>Go live</kbd> once more: if you see the Live Control Room instead of a countdown, streaming is enabled. If YouTube shows a restriction notice instead, the channel has a strike or is not in good standing — the notice explains what to do.</li>
+  <li>Channels must meet YouTube's live-streaming rules: no live-streaming restrictions in the past 90 days, and the account holder must be at least 18 (or 13 with a verified parent).</li>
+</ol>
+
+<h2 id="group-channel">2. Create a YouTube channel for your group</h2>
+
+
 
 <p>A group (a family, a team, a class) streams to one shared YouTube channel. Each member signs in to Emdalex Stream with their <em>own</em> Google account and simply picks the group channel — nobody shares a password. The channel is a YouTube <em>Brand Account</em>; the person who creates it is its owner and can add and remove members at any time.</p>
 
@@ -43,11 +73,7 @@
 </ol>
 
 <h3>Step 2 — Enable live streaming on the channel</h3>
-<ol>
-  <li>While the new channel is selected, open <a href="https://studio.youtube.com">studio.youtube.com</a>.</li>
-  <li>Click <kbd>Create</kbd> (top right) → <kbd>Go live</kbd>. YouTube will ask you to verify a phone number by SMS.</li>
-  <li>After verification YouTube shows a countdown: live streaming becomes available on this channel within 24 hours. You can close the page — nothing else is needed. Until the countdown ends, the app cannot create streams on this channel.</li>
-</ol>
+<p>While the new channel is selected, follow <a href="#enable-streaming">chapter 1</a>: YouTube Studio → <kbd>Go live</kbd>, phone verification, then up to 24 hours before the channel can stream. Until then the app cannot create streams on this channel.</p>
 
 <h3>Step 3 — Make sure members are managed through Google Account</h3>
 <div class="note">
@@ -76,7 +102,7 @@
 </ol>
 <p>Everyone who signs in this way sees the same lists: what is scheduled, who is on air (the <em>Live</em> tab) and all recordings. Streams are <em>unlisted</em> by default, so only people with the link — in practice, the group — can watch them.</p>
 
-<h2 id="revoke-access">2. Remove Emdalex Stream's access to your Google Account</h2>
+<h2 id="revoke-access">3. Remove Emdalex Stream's access to your Google Account</h2>
 
 <p>When you signed in for the first time, Google asked you to allow Emdalex Stream to manage your YouTube account. If you stop using the app — or simply want to tidy up your account — you can take that permission away. The app keeps nothing anywhere else, so this is all there is to remove.</p>
 
